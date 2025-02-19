@@ -29,7 +29,7 @@ jobs:
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
         with:
-          project: "fior17-samm-portfo-48"
+          project: "samportfolio"
           entrypoint: "main.ts"
           root: "."
           
