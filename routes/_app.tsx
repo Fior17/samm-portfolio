@@ -71,7 +71,7 @@ export default function App({ Component }: PageProps) {
     },
     {
       name: "LinkedIn",
-      url: "https://www.linkedin.com/in/michael-pascal-pfister",
+      url: "https://www.linkedin.com/in/sammuel-lera-39145834b/",
       icon: "fa-brands:linkedin",
     },
   ];
@@ -100,9 +100,9 @@ export default function App({ Component }: PageProps) {
         </main>
         <footer class="mt-auto footer w-auto m-2 p-4 bg-neutral text-neutral-content rounded-lg">
           <aside>
-            <span>MIT licensed with ❤️ by Michael</span>
+            <span>Lera, Sammuel | Polytechnic University of The Philippines.</span>
             <span>
-              3D Art by{" "}
+              3D Art source by{" "}
               <a
                 class="underline"
                 href="https://sketchfab.com/KJLOYH"

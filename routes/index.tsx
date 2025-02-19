@@ -5,11 +5,13 @@ import Wave from "../components/Wave.tsx";
 
 // preload icons
 loadIcons([
-  "majesticons:suitcase",
+  "mdi:graduation-cap",
+  "logos:mysql",
   "tabler:calendar-filled",
   "carbon:location-filled",
-  "logos:deno",
-  "logos:vue",
+  "mdi:flower",
+  "mdi:hard-hat",
+  "mdi:motorbike",
   "vscode-icons:file-type-js-official",
   "vscode-icons:file-type-js-official",
   "logos:html-5",
@@ -38,14 +40,16 @@ function Hero() {
         <h1 class="text-4xl font-bold text-primary">
           <TypingAnimation
             strings={[
-              '"Hello, World!"',
+              'Hi my name is Sam!',
               "I'm a developer.",
+              'Hi my name is Sam!',
+              "I'm a Graphic Designer.",
             ]}
             autoStart={true}
           />
         </h1>
         <p class="text-xl mt-4">
-          I build web applications and websites using modern technologies.
+        Hi! im Sammuel B. Lera a 4th-year IT student from the Polytechnic University of the Philippines, passionate about technology, web development, and graphic design.
         </p>
       </div>
       <SpinningModel />
@@ -64,20 +68,20 @@ function Values() {
     {
       title: "Passion for Continuous Learning",
       description:
-        "I actively seek out new technologies and stay up-to-date with industry trends.",
-      image: "/img/pexels-pixabay-159711.webp",
+        "yap..",
+      image: "/img/sam1.jpg",
     },
     {
       title: "User-Centric Approach",
       description:
         "My goal is to create user-friendly applications that solve real-world problems.",
-      image: "/img/pexels-picjumbo-com-55570-196644.webp",
+      image: "/img/sam3.jpg",
     },
     {
       title: "Collaboration and Communication",
       description:
         "I excel in team environments and communicate effectively with stakeholders.",
-      image: "/img/pexels-fauxels-3184418.webp",
+      image: "/img/sam2.jpg",
     },
   ];
 
@@ -119,16 +123,16 @@ interface Experience {
 function Experience() {
   const experiences: Experience[] = [
     {
-      title: "Full Stack Web Developer",
-      company: "AST Advanced Sales Technologies GmbH",
-      timePeriod: "Sep 2023 - Apr 2024",
-      location: "Vienna, Austria",
+      title: "Polytechnic University of the Philippines",
+      company: "Bachelor of Science in Information Technology",
+      timePeriod: "2021 - Present",
+      location: "Sta. Mesa, Manila",
     },
     {
-      title: "Junior Web Developer",
-      company: "AST Advanced Sales Technologies GmbH",
-      timePeriod: "Feb 2023 - Sep 2023",
-      location: "Vienna, Austria",
+      title: "Polytechnic University of the Philippines",
+      company: "Senior High",
+      timePeriod: "2019 - 2021",
+      location: "Sta. Mesa, Manila",
     },
   ];
 
@@ -151,7 +155,7 @@ function Experience() {
                 <h2 class="card-title">{experience.title}</h2>
                 <span class="flex items-center gap-2 text-gray">
                   <Icon
-                    icon="majesticons:suitcase"
+                    icon="mdi:graduation-cap"
                     width="none"
                     height="none"
                   />
@@ -178,7 +182,7 @@ function Experience() {
           </>
         ))}
       </div>
-      <h1 class="text-3xl font-bold text-primary">Work Experience</h1>
+      <h1 class="text-3xl font-bold text-primary">Academic Background</h1>
     </section>
   );
 }
@@ -194,27 +198,35 @@ interface Project {
 function Projects() {
   const projects: Project[] = [
     {
-      title: "Denoland Fresh",
+      title: "Floresette",
       description:
-        "Fresh is a full stack modern web framework for JavaScript and TypeScript developers.",
-      link: "https://fresh.deno.dev/",
-      type: "Open Source",
-      icon: "logos:deno",
+        "Floressette is an e-commerce platform for flowers, offering an interactive bouquet builder with real-time pricing, data-driven flower trends, multiple delivery options, and a seamless checkout experience.",
+      link: "https://github.com/SammLera/Floressette",
+      type: "Academic Project",
+      icon: "mdi:flower",
     },
     {
-      title: "Dogr.",
+      title: "Philsafe Inc.",
       description:
-        "Dogr is a web application I developed to hone my skills in Nuxt and Vue.",
-      link: "https://dogr.vercel.app/",
-      type: "Personal",
-      icon: "logos:vue",
+        "PhilSafety is an e-commerce platform for industrial safety equipment, featuring an intuitive interface for seamless browsing and purchasing, real-time inventory updates, and secure payment processing.",
+      link: "https://philsafety.co",
+      type: "Work Project",
+      icon: "mdi:hard-hat",
+    },
+    {
+      title: "TrackCycle",
+      description:
+        "This mobile and web loan management system offers real-time updates, a loan calculator, a referral system, and Machine Learning-based fraud detection with Biometric Authentication.",
+      link: "https://philsafety.co",
+      type: "Academic Project",
+      icon: "mdi:motorbike",
     },
   ];
 
   return (
     <section class="p-4 my-8">
       <h1 class="text-3xl font-bold text-primary text-center mb-4">
-        Projects and Contributions
+        Projects
       </h1>
       <div class="flex flex-wrap justify-center items-center gap-2">
         {projects.map((project) => (
@@ -254,20 +266,10 @@ function Technologies() {
     "logos:php",
     "logos:typescript-icon",
     "skill-icons:react-dark",
-    "logos:vue",
-    "devicon:nextjs",
-    "skill-icons:nuxtjs-dark",
-    "logos:nestjs",
-    "logos:fresh",
-    "skill-icons:laravel-dark",
-    "skill-icons:tailwindcss-dark",
-    "logos:deno",
     "devicon:nodejs",
     "vscode-icons:file-type-mongo",
     "logos:postgresql",
-    "logos:mariadb-icon",
-    "skill-icons:cassandra-light",
-    "skill-icons:docker",
+    "logos:mysql",
   ];
 
   return (
