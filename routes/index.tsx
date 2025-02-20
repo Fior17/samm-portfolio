@@ -201,7 +201,7 @@ function Projects() {
       title: "Floresette",
       description:
         "Floressette is an e-commerce platform for flowers, offering an interactive bouquet builder with real-time pricing, data-driven flower trends, multiple delivery options, and a seamless checkout experience.",
-      link: "https://github.com/SammLera/Floressette",
+      link: "https://github.com/Samm-Lera/Floresette",
       type: "Academic Project",
       icon: "mdi:flower",
     },
@@ -217,7 +217,7 @@ function Projects() {
       title: "TrackCycle",
       description:
         "This mobile and web loan management system offers real-time updates, a loan calculator, a referral system, and Machine Learning-based fraud detection with Biometric Authentication.",
-      link: "https://philsafety.co",
+      link: "https://github.com/Samm-Lera/trackcycle",
       type: "Academic Project",
       icon: "mdi:motorbike",
     },
