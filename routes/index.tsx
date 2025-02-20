@@ -66,9 +66,9 @@ interface Value {
 function Values() {
   const values: Value[] = [
     {
-      title: "Passion for Continuous Learning",
+      title: "Focused on Gaining Practical IT Experience",
       description:
-        "Eager to apply my skills and contribute to innovative projects, I bring a proactive mindset, strong problem-solving abilities, and a commitment to continuous learning. Ready to gain hands-on experience and enhance my technical expertise in a dynamic IT environment..",
+        "Eager to apply my skills and contribute to innovative projects, Ready to gain hands-on experience and enhance my technical expertise in a dynamic IT environment.",
       image: "/img/sam1.jpg",
     },
     {
