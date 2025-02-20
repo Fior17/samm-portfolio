@@ -72,9 +72,9 @@ function Values() {
       image: "/img/sam1.jpg",
     },
     {
-      title: "User-Centric Approach",
+      title: "Passionate about emerging technologies and continuous learning.",
       description:
-        "My goal is to create user-friendly applications that solve real-world problems.",
+        "I stay ahead of industry trends, constantly exploring new technologies to enhance my skills and innovate solutions.",
       image: "/img/sam3.jpg",
     },
     {
