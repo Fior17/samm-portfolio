@@ -68,7 +68,7 @@ function Values() {
     {
       title: "Passion for Continuous Learning",
       description:
-        "yap..",
+        "Eager to apply my skills and contribute to innovative projects, I bring a proactive mindset, strong problem-solving abilities, and a commitment to continuous learning. Ready to gain hands-on experience and enhance my technical expertise in a dynamic IT environment..",
       image: "/img/sam1.jpg",
     },
     {
