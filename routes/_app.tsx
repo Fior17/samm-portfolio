@@ -77,7 +77,7 @@ export default function App({ Component }: PageProps) {
   ];
 
   const credentials = {
-    name: "John Doe",
+    name: "Sammuel Lera",
   };
 
   const url = "https://opensource-portfolio.deno.dev/";
